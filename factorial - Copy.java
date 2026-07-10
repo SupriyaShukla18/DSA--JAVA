@@ -9,16 +9,14 @@ public class factorial {
 
  }
  public static int printFacto(int n){
-if(n==1||n==0)
-{
-    return 1;
-   }
-   int facto=printFacto(n-1);
-   return n*facto;
+    if(n==1||n==0)
+    {
+        return 1;
+    }
+    int Nm1= printFacto(n-1);
+    int facto=n*Nm1;
+    return facto;
 
-
- }
- 
 
  }    
-
+}

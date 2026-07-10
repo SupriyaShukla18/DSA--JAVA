@@ -17,14 +17,13 @@ public class StackHeigthLogn {
         {
             return 0;
         } 
-        int halfpow=printHeigth(x, n/2);
-        int fullpow=halfpow*halfpow;
+        int halfpow=printHeigth(x, n/2)*printHeigth(x,n/2);
 if(n%2==0)
 {
-  return fullpow;
+  return halfpow;
 }
   else{
-return fullpow*x;
+return halfpow*x;
   }
 
     }
