@@ -4,6 +4,7 @@ public class stackHeigth {
         Scanner sc= new Scanner(System.in);
        int x=sc.nextInt();
        int n= sc.nextInt();
+       sc.close();
       int ans=  stackheight(x,n);
       System.out.println(ans);
     }

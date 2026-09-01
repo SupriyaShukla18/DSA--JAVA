@@ -4,9 +4,10 @@ public class ReverseString {
     {
         Scanner sc= new Scanner(System.in);
      String str= sc.nextLine();
-     ReverseString(str,str.length()-1);
+     reverseString(str,str.length()-1);
+     sc.close();
     }
-    public static void ReverseString(String str,int idx)
+    public static void reverseString(String str,int idx)
 
     {
         
@@ -15,7 +16,7 @@ public class ReverseString {
             return;
         }
       System.out.print(str.charAt(idx));
-      ReverseString(str, idx-1);
+      reverseString(str, idx-1);
 
     }
 }

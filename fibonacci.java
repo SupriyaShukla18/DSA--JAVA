@@ -10,6 +10,7 @@ public class fibonacci {
          System.out.println(a);
          System.out.println(b);
          printFibo(a,b,n-2);
+         sc.close();
     }
     public static void printFibo(int a,int b,int n)
     {

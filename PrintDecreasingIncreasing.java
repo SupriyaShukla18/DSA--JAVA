@@ -4,6 +4,7 @@ public class PrintDecreasingIncreasing {
         Scanner sc= new Scanner(System.in);
         int n= sc.nextInt();
    printDecrIncr(n);
+   sc.close();
     }
     public static void printDecrIncr(int n){
 

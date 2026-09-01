@@ -13,7 +13,7 @@ public class FristOccurence {
         int idx =0;
        int ans= FirstOccur(arr, target,idx);
        System.out.println(ans);
-        
+        sc.close();
     }
     public static int FirstOccur(int [] arr, int target,int idx){
     

@@ -12,7 +12,7 @@ public class Max_of_Array {
         int larger=0;
         
        int ele= max(array,1,larger);
-       System.out.println(ele);
+       System.out.println(ele);sc.close();
 
     }
     public static int max(int [] array,int idx,int larger)

@@ -9,6 +9,7 @@ public static void main(String[] args){
       array[i]=sc.nextInt();
 
     }
+    sc.close();
     display(array,array.length-1);
 
 }

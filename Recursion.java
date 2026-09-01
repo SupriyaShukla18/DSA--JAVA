@@ -4,6 +4,7 @@ public class Recursion{
         Scanner sc= new Scanner(System.in);
         int n=sc.nextInt();
         printnum(n);
+        sc.close();
     }
     public static void printnum(int n){
      if(n==0){

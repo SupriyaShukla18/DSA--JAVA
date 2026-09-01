@@ -6,6 +6,7 @@ public class StackHeigthLogn {
       int x= sc.nextInt();
      int ans= printHeigth(x,n);
      System.out.println(ans);
+     sc.close();
 
     }
     public static int printHeigth(int x,int n)

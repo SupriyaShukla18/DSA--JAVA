@@ -8,6 +8,7 @@ public class SumOfFirst_nNatural_no {
         int n= sc.nextInt();
         int sumof=0;
         sum(i,n,sumof);
+        sc.close();
     }
     public static void sum(int i,int n,int sumof)
     {

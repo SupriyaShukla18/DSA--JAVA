@@ -16,7 +16,7 @@ public class revreseOfarray {
       for( int value:array)
       {
         System.out.print(value);
-      }
+      }sc.close();
     
 
     }

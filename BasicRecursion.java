@@ -4,6 +4,7 @@ public class BasicRecursion {
         Scanner sc= new Scanner(System.in);
         int n= sc.nextInt();
         num(n);
+        sc.close();
     }
     public static void num(int n)
     {

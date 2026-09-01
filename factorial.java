@@ -6,6 +6,7 @@ public class factorial {
     int n= sc.nextInt();
     int print=printFacto(n);
     System.out.println(print);
+    sc.close();
 
  }
  public static int printFacto(int n){
